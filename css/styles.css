@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #F1F4F5;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 2%;
+    background-color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+}
+nav ul li .avatar-menu{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #01b1ec;
+}
+
+nav ul li .avatar-menu img{
+    width: 40px;
+}
+
+.container{
+    padding: 0 17%;
+    background-color: chartreuse;
+   
+}
