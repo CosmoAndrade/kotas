@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
     background-color: #F1F4F5;
 }
 
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,21 +35,22 @@ nav ul li a {
     font-size: 12px;
     font-weight: 300;
 }
-nav ul li .avatar-menu{
+
+nav ul li .avatar-menu {
     width: 42px;
     height: 42px;
     border-radius: 50%;
     border: 1px solid #01b1ec;
 }
 
-nav ul li .avatar-menu img{
+nav ul li .avatar-menu img {
     width: 40px;
 }
 
-.container{
-    padding: 0 17%;
-    
-   
+.container {
+    padding: 0 15%;
+
+
 }
 
 .container .pesquisa input {
@@ -61,40 +62,94 @@ nav ul li .avatar-menu img{
     padding: 0 35px;
     margin: 15px 15px;
     font-size: 16px;
-   
+
 }
 
 .categorias {
     margin-top: 40px;
 }
 
-.cards-cate{
+.caixa-cards:hover{
+    background-color: #eee;
+}
+
+.cards-cate {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 40px;
 }
 
-.caixa-cards{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+.caixa-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 88px;
     height: 88px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
     padding: 12px 20px 12px 12px;
-    
+
 
 }
 
-.caixa-cards img{
+.caixa-cards img {
     width: 23px;
 }
 
-.caixa-cards span{
+.caixa-cards span {
     font-size: 10px;
     font-weight: bold;
     text-align: justify;
+}
+
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 152px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+
+}
+
+.cards .cards-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.cards .cards-img img{
+    width: 50px;
+}
+
+.cards p{
+    font-size: 12px;
+}
+
+.cards button {
+    border: 0;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 5px 25px;
+}
+
+.cards:hover{
+    background-color: #eee;
 }
