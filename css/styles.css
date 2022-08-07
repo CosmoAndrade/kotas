@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     padding: 4px 2%;
     background-color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 header nav ul {
@@ -65,4 +66,35 @@ nav ul li .avatar-menu img{
 
 .categorias {
     margin-top: 40px;
+}
+
+.cards-cate{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.caixa-cards{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    width: 88px;
+    height: 88px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 12px 20px 12px 12px;
+    
+
+}
+
+.caixa-cards img{
+    width: 23px;
+}
+
+.caixa-cards span{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: justify;
 }
